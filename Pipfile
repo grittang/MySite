@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==2.2.3"
+markdown = "*"
+pillow = "*"
+django-pure-pagination = "*"
+importlib-metadata = "*"
+pygments = "*"
+pytz = "*"
+typing-extensions = "*"
+zipp = "*"
+
+[dev-packages]
+fabric = "*"
+
+[requires]
+python_version = "3.6"
